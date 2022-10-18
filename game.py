@@ -14,7 +14,7 @@ class BoardGames(arcade.Window):
     def __init__(self, width, height, title):
         super().__init__(width, height, title)
         
-        arcade.set_background_color(arcade.color.AMAZON) # this will set the background color
+        arcade.set_background_color(arcade.color.AMAZON) 
     def setup(self):
         """ Set up the game variables. Call to re-start the game. """
         # Create your sprites and sprite lists here
